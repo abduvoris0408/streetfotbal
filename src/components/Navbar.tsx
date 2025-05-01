@@ -1,4 +1,5 @@
 import { BellDot, LogIn, MapPin, User } from 'lucide-react'
+import { Logo } from '../assets/images'
 import ToggleMode from './ToggleMode'
 
 const Navbar = () => {
@@ -6,11 +7,7 @@ const Navbar = () => {
 		<nav className='py-5 border-b-[0.5px] border-gray-200 sticky top-0 bg- z-10 bg-gray-100 dark:bg-black/90 backdrop-blur-md'>
 			<div className='container w-10/12 mx-auto flex justify-between items-center'>
 				<div className='flex items-center gap-1 text-2xl text-black dark:text-white'>
-					<img
-						className=''
-						src='/src/assets/images/logo.svg'
-						alt='logo'
-					/>
+					<img className='' src={Logo} alt='logo' />
 					StreetFootball
 				</div>
 
